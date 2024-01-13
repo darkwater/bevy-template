@@ -1,3 +1,4 @@
 [toolchain]
-channel = "nightly-{{ "now" | date: "%Y-%m-%d" }}"
+channel = "nightly"
+# channel = "nightly-{{ "now" | date: "%Y-%m-%d" }}"
 components = ["rust-src", "rustfmt", "clippy", "llvm-tools", "rust-analyzer"]
